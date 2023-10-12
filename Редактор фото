@@ -1,0 +1,36 @@
+#include <opencv2/opencv.hpp>
+#include <iostream>
+
+int main() {
+    // Загрузка изображения
+    cv::Mat image = cv::imread("input.jpg");
+
+    if (image.empty()) {
+        std::cerr << "Не удалось загрузить изображение." << std::endl;
+        return -1;
+    }
+
+    // Применение фильтра: изменение цветовых оттенков
+    cv::Mat filteredImage;
+    cv::cvtColor(image, filteredImage, cv::COLOR_BGR2HSV);
+
+    // Изменение оттенка (цвета) на 30 градусов
+    for (int y = 0; y < filteredImage.rows; y++) {
+        for (int x = 0; x < filteredImage.cols; x++) {
+            cv::Vec3b& pixel = filteredImage.at<cv::Vec3b>(y, x);
+            int hue = pixel[0];
+            hue = (hue + 30) % 180;  // 180 - диапазон оттенков в OpenCV
+            pixel[0] = hue;
+        }
+    }
+
+    // Конвертация обратно в цветовое пространство BGR
+    cv::cvtColor(filteredImage, filteredImage, cv::COLOR_HSV2BGR);
+
+    // Сохранение результата
+    cv::imwrite("output.jpg", filteredImage);
+
+    std::cout << "Редактирование изображения завершено. Результат сохранен в output.jpg." << std::endl;
+
+    return 0;
+}
