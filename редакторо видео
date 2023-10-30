@@ -11,3 +11,29 @@ final_video = VideoClip.concat(video_clips)
 
 # Сохраняем объединенное видео в новый файл
 final_video.write_videofile("combined_video.mp4")
+from moviepy.editor import VideoFileClip, VideoClip
+
+# Список видеофайлов, которые нужно объединить
+video_files = ["video1.mp4", "video2.mp4", "video3.mp4"]
+
+# Загружаем видеофайлы и создаем объекты VideoFileClip
+video_clips = [VideoFileClip(file) for file in video_files]
+
+# Объединяем видеофайлы
+final_video = VideoClip.concat(video_clips)
+
+# Сохраняем объединенное видео в новый файл
+final_video.write_videofile("combined_video.mp4")
+from moviepy.editor import VideoFileClip, VideoClip
+
+# Список видеофайлов, которые нужно объединить
+video_files = ["video1.mp4", "video2.mp4", "video3.mp4"]
+
+# Загружаем видеофайлы и создаем объекты VideoFileClip
+video_clips = [VideoFileClip(file) for file in video_files]
+
+# Объединяем видеофайлы
+final_video = VideoClip.concat(video_clips)
+
+# Сохраняем объединенное видео в новый файл
+final_video.write_videofile("combined_video.mp4")
