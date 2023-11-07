@@ -4,6 +4,18 @@ from moviepy.editor import VideoFileClip, VideoClip
 video_files = ["video1.mp4", "video2.mp4", "video3.mp4"]
 
 # Загружаем видеофайлы и создаем объекты VideoFileClip
+video_clips = [VideoFileClip(file) for file in video_files]# Список видеофайлов, которые нужно объединить
+video_files = ["video1.mp4", "video2.mp4", "video3.mp4"]
+
+# Загружаем видеофайлы и создаем объекты VideoFileClip
+video_clips = [VideoFileClip(file) for file in video_files]# Список видеофайлов, которые нужно объединить
+video_files = ["video1.mp4", "video2.mp4", "video3.mp4"]
+
+# Загружаем видеофайлы и создаем объекты VideoFileClip
+video_clips = [VideoFileClip(file) for file in video_files]# Список видеофайлов, которые нужно объединить
+video_files = ["video1.mp4", "video2.mp4", "video3.mp4"]
+
+# Загружаем видеофайлы и создаем объекты VideoFileClip
 video_clips = [VideoFileClip(file) for file in video_files]
 
 # Объединяем видеофайлы
@@ -18,11 +30,65 @@ video_files = ["video1.mp4", "video2.mp4", "video3.mp4"]
 
 # Загружаем видеофайлы и создаем объекты VideoFileClip
 video_clips = [VideoFileClip(file) for file in video_files]
+# Список видеофайлов, которые нужно объединить
+video_files = ["video1.mp4", "video2.mp4", "video3.mp4"]
 
-# Объединяем видеофайлы
-final_video = VideoClip.concat(video_clips)
+# Загружаем видеофайлы и создаем объекты VideoFileClip
+video_clips = [VideoFileClip(file) for file in video_files]# Список видеофайлов, которые нужно объединить
+video_files = ["video1.mp4", "video2.mp4", "video3.mp4"]
 
-# Сохраняем объединенное видео в новый файл
+# Загружаем видеофайлы и создаем объекты VideoFileClip
+video_clips = [VideoFileClip(file) for file in video_files]# Список видеофайлов, которые
+# Список видеофайлов, которые нужно объединить
+video_files = ["video1.mp4", "video2.mp4", "video3.mp4"]
+
+# Загружаем видеофайлы и создаем объекты VideoFileClip
+video_clips = [VideoFileClip(file) for file in video_files]
+# Список видеофайлов, которые нужно объединить
+video_files = ["video1.mp4", "video2.mp4", "video3.mp4"]
+
+# Загружаем видеофайлы и создаем объекты VideoFileClip
+video_clips = [VideoFileClip(file) for file in video_files]# Список видеофайлов, которые нужно объединить
+video_files = ["video1.mp4", "video2.mp4", "video3.mp4"]
+
+# Загружаем видеофайлы и создаем объекты VideoFileClip
+video_clips = [VideoFileClip(file) for file in video_files]# Список видеофайлов, которые
+# Список видеофайлов, которые нужно объединить
+video_files = ["video1.mp4", "video2.mp4", "video3.mp4"]
+
+# Загружаем видеофайлы и создаем объекты VideoFileClip
+video_clips = [VideoFileClip(file) for file in video_files]
+# Список видеофайлов, которые нужно объединить
+video_files = ["video1.mp4", "video2.mp4", "video3.mp4"]
+
+# Загружаем видеофайлы и создаем объекты VideoFileClip
+video_clips = [VideoFileClip(file) for file in video_files]# Список видеофайлов, которые нужно объединить
+video_files = ["video1.mp4", "video2.mp4", "video3.mp4"]
+
+# Загружаем видеофайлы и создаем объекты VideoFileClip
+video_clips = [VideoFileClip(file) for file in video_files]# Список видеофайлов, которые
+# Список видеофайлов, которые нужно объединить
+video_files = ["video1.mp4", "video2.mp4", "video3.mp4"]
+
+# Загружаем видеофайлы и создаем объекты VideoFileClip
+video_clips = [VideoFileClip(file) for file in video_files]
+# Список видеофайлов, которые нужно объединить
+video_files = ["video1.mp4", "video2.mp4", "video3.mp4"]
+
+# Загружаем видеофайлы и создаем объекты VideoFileClip
+video_clips = [VideoFileClip(file) for file in video_files]# Список видеофайлов, которые нужно объединить
+video_files = ["video1.mp4", "video2.mp4", "video3.mp4"]
+
+# Загружаем видеофайлы и создаем объекты VideoFileClip
+video_clips = [VideoFileClip(file) for file in video_files]# Список видеофайлов, которые нужно объединить
+video_files = ["video1.mp4", "video2.mp4", "video3.mp4"]
+
+# Загружаем видеофайлы и создаем объекты VideoFileClip
+video_clips = [VideoFileClip(file) for file in video_files]# Список видеофайлов, которые нужно объединить
+video_files = ["video1.mp4", "video2.mp4", "video3.mp4"]
+
+# Загружаем видеофайлы и создаем объекты VideoFileClip
+video_clips = [VideoFileClip(file) for file in video_files]
 final_video.write_videofile("combined_video.mp4")
 from moviepy.editor import VideoFileClip, VideoClip
 
