@@ -62,21 +62,4 @@ int main() {
             cv::Vec3b& pixel = filteredImage.at<cv::Vec3b>(y, x);
     }
 
-    // Конвертация обратно в цветовое пространство     for (int y = 0; y < filteredImage.rows; y++) {
-        for (int x = 0; x < filteredImage.cols; x++) {
-            cv::Vec3b& pixel = filteredImage.at<cv::Vec3b>(y, x);GR
-    cv::cvtColor(filteredImage, filteredImage, cv::COLOR_HSV2BGR);
 
-    // Сохранение результата
-    cv::imwrite("output.jpg", filteredImage);    for (int y = 0; y < filteredImage.rows; y++) {
-        for (int x = 0; x < filteredImage.cols; x++) {
-            cv::Vec3b& pixel = filteredImage.at<cv::Vec3b>(y, x);
-
-        for (int y = 0; y < filteredImage.rows; y++) {
-        for (int x = 0; x < filteredImage.cols; x++) {
-            cv::Vec3b& pixel = filteredImage.at<cv::Vec3b>(y, x);std::cout << "Редактирование изображения завершено. Результат сохранен в output.jpg." << std::endl;
-    for (int y = 0; y < filteredImage.rows; y++) {
-        for (int x = 0; x < filteredImage.cols; x++) {
-            cv::Vec3b& pixel = filteredImage.at<cv::Vec3b>(y, x);
-    return 0;
-}
